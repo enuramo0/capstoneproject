@@ -76,5 +76,6 @@ ns ns0 http//way2learnonline.com/domain
 		</http:listener>
 		<flow-ref doc:name="ValidateAndTransform" doc:id="ec1054d2-5bce-4ecf-bf53-bf8c3bb49f60" name="ValidateAndTransform"/>
 		<logger level="INFO" doc:name="Logger" doc:id="f52a19db-0726-4478-a10b-50bea1955787" message="#['in main flow After Getting all products']"/>
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="36469198-7a75-4bad-9cea-c87a9b27f01a" />
 	</flow>
 </mule>
