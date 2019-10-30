@@ -63,7 +63,7 @@ ns ns0 http//way2learnonline.com/domain
 		</ee:transform>
 		<flow-ref doc:name="getproductsbyname" doc:id="bb84052b-0b6b-42fe-8a0a-84b1625045ce" name="getproductsbyname"/>
 		<error-handler>
-			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="b72392d2-5af7-4778-bbe5-b87e95ae872e" >
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="b72392d2-5af7-4778-bbe5-b87e95ae872e">
 				<logger level="INFO" doc:name="Logger" doc:id="480c119b-06c1-438a-be83-3015e1f80393" message='"Inside on error propagate of ValidateAndTransform"'/>
 			</on-error-propagate>
 		</error-handler>
